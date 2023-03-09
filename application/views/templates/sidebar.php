@@ -4,9 +4,9 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-code"></i>
+                    <i class="fas fa-code-branch"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">WPU Admin</div>
+                <div class="sidebar-brand-text mx-3">PututDev Project</div>
             </a>
 
             <!-- Divider -->
@@ -63,7 +63,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('auth/logout'); ?>">
                     <i class="fas fa-fw fa-sign-out-alt"></i>
-                    <span>Logout</span></a>
+                    <span>Keluar</span></a>
             </li>
 
 

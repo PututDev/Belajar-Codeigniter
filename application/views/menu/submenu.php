@@ -16,7 +16,7 @@
 
             <?= $this->session->flashdata('message'); ?>
 
-            <a href="" class="btn btn-primary mb-3" data-toggle="modal" data-target="#newSubMenuModal">Add New Submenu</a>
+            <a href="" class="btn btn-primary mb-3" data-toggle="modal" data-target="#newSubMenuModal">Tambah  Submenu</a>
 
             <table class="table table-hover">
                 <thead>
@@ -27,7 +27,7 @@
                         <th scope="col">Url</th>
                         <th scope="col">Icon</th>
                         <th scope="col">Active</th>
-                        <th scope="col">Action</th>
+                        <th scope="col">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -41,8 +41,8 @@
                         <td><?= $sm['icon']; ?></td>
                         <td><?= $sm['is_active']; ?></td>
                         <td>
-                            <a href="" class="badge badge-success">edit</a>
-                            <a href="" class="badge badge-danger">delete</a>
+                            <a href="" class="badge badge-success">Edit</a>
+                            <a href="" class="badge badge-danger">Delete</a>
                         </td>
                     </tr>
                     <?php $i++; ?>
